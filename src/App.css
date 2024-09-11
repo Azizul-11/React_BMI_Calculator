@@ -1,0 +1,97 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+
+/* Main Container */
+main {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  margin-bottom: 1rem;
+  color: #007BFF;
+}
+
+/* Input Section Styles */
+.input-section {
+  margin-bottom: 2rem;
+}
+
+.slider-output {
+  font-size: 1rem;
+  margin: 1rem 0;
+  color: #555;
+}
+
+/* Slider Styling */
+.input-slider {
+  width: 100%;
+  margin-bottom: 1rem;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 8px;
+  background: #007BFF;
+  outline: none;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+.input-slider:hover {
+  opacity: 1;
+}
+
+.input-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border: 2px solid #007BFF;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.input-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border: 2px solid #007BFF;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Output Section Styles */
+.output-section {
+  margin-top: 1.5rem;
+}
+
+.output-section p {
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.output {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #28a745;
+  margin-top: 0.5rem;
+}
